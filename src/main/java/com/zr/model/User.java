@@ -4,10 +4,15 @@ import java.io.Serializable;
 //这是一个user类
 public class User implements Serializable{
 	private static final long serialVersionUID = -1L;
+	
 	private Integer userId;
+	
 	private String userName;
+	
 	private String userPassword;
+	
 	private String userEmail;
+	
 	public Integer getUserId() {
 		return userId;
 	}
